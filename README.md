@@ -1,4 +1,4 @@
 elevent
 =======
 
-An event system for Love2d.
+The easiest event system for Love2d.
