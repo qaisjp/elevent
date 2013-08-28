@@ -1,5 +1,9 @@
+-- Elevent 1.0
+-- Licensed under The MIT License (MIT)
+-- Copyright (c) 2013 Qais "qaisjp" Patankar
+
 local eventList, renderList = { }, { }
-Event = { }
+local Event = { }
 Event.AddEvent = function(event)
   if (type(event) ~= "string") or (event == "") then
     error("Invalid `event` parameter supplied", 2)
@@ -103,3 +107,4 @@ for i, v in ipairs({
 }) do
   love[v] = Event.AddEvent(v)
 end
+return Event

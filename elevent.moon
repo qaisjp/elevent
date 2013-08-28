@@ -1,5 +1,9 @@
+-- Elevent 1.0
+-- Licensed under The MIT License (MIT)
+-- Copyright (c) 2013 Qais "qaisjp" Patankar
+
 eventList, renderList = {}, {}
-export Event = {}
+Event = {}
 
 Event.AddEvent = (event) ->
 	if (type(event)!="string") or (event=="")
@@ -96,3 +100,4 @@ for i,v in ipairs {
 	"update"
 }
 	love[v] = Event.AddEvent v
+Event
