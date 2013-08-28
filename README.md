@@ -2,8 +2,10 @@ Elevent
 =======
 
 Elevent is the easiest event system for Love2d, get rid of that file full of calls and put your draw code where it should be.
+
 This library streamlines the event system to allow multiple callbacks to be applied to a single master callback, prioritised by numbers and grouped by string.
-It's super easy to get started, just check out the documentation below!
+
+It's super easy to get started, just check out the documentation below! The documentation is incomplete :(
 
 
 Documentation
