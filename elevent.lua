@@ -80,7 +80,7 @@ Event.RemoveHandler = function(event, ref)
 end
 Event.RemoveAllHandlers = function(ref)
   if not ref then
-    error("Invalid parameter supplied for `red`", 2)
+    error("Invalid parameter supplied for `ref`", 2)
   end
   for event, events in pairs(eventList) do
     for eventref in pairs(events) do
@@ -100,7 +100,7 @@ for i, v in ipairs({
   "keyreleased",
   "load",
   "mousepressed",
-  "muosereleased",
+  "mousereleased",
   "quit",
   "run",
   "update"
