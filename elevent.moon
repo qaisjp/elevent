@@ -76,7 +76,7 @@ Event.RemoveHandler = (event, ref) ->
 
 Event.RemoveAllHandlers = (ref) ->
 	if not ref
-		error "Invalid parameter supplied for `red`", 2
+		error "Invalid parameter supplied for `ref`", 2
 
 	for event, events in pairs eventList
 		for eventref in pairs events
@@ -94,7 +94,7 @@ for i,v in ipairs {
 	"keyreleased",
 	"load",
 	"mousepressed",
-	"muosereleased",
+	"mousereleased",
 	"quit",
 	"run",
 	"update"
