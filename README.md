@@ -26,8 +26,8 @@ It returns a function, this function must be the value of the master callback wh
 This example applies the love.draw master callback to elevent.
 
 	function love.load()
-   		elevent = require "elevent"
-    		love.draw = elevent.AddEvent("draw")
+		elevent = require "elevent"
+		love.draw = elevent.AddEvent("draw")
   	end
   	
   	
