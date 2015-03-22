@@ -11,9 +11,9 @@ It's super easy to get started, just check out the documentation below! The docu
 Documentation
 =============
 
-`$.AddEvent`
+`.AddEvent`
 ----------
-`function $.AddEvent(string eventName)`
+`function .AddEvent(string eventName)`
 AddEvent is the callback system creator, elevent automatically calls this function to apply the default love master callbacks to the system.
 
 ### Returns
@@ -27,13 +27,13 @@ This example applies the love.draw master callback to elevent.
 
 	function love.load()
    		elevent = require "elevent"
-    	love.draw = elevent.AddEvent("draw")
+    		love.draw = elevent.AddEvent("draw")
   	end
   	
   	
-`$.AddHandler`
+`.AddHandler`
 ----------
-`nil $.AddHandler(string event, function callback, mixed ref, float priority)`
+`nil .AddHandler(string event, function callback, mixed ref, float priority)`
 AddHandler applies a callback to a master callback, this is the main function of elevent.
 
 ### Syntax
