@@ -1,4 +1,4 @@
-Elevent
+Elevent for love 0.8.0
 =======
 
 Elevent is the easiest event system for Love2d, get rid of that file full of calls and put your draw code where it should be.
